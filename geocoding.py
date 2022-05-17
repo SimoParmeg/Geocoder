@@ -4,8 +4,8 @@ from geopy.geocoders import Nominatim
 from time import sleep
 
 # TEST WITH GEOCODING
-nom = Nominatim(user_agent="Parmeg")
-n = nom.geocode("via Enrico Ferri, 18/2, Reggio nell'Emilia")
+nom = Nominatim(user_agent="Insert User Here")
+n = nom.geocode("Insert Address Here")
 print(n)
 print(type(n.address))
 print(type(n.latitude), type(n.longitude))
